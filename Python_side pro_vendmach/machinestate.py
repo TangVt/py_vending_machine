@@ -26,7 +26,7 @@ class MachineState:
     return message
 
   def build_message(self, total_coins):
-    if self.selected_product:
+    if (self.selected_product and (self.reset == False)):
         return self.display_with_selected_product(total_coins)
     elif (self.reset == True):
         return self.refund()
