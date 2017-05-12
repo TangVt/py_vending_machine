@@ -4,17 +4,20 @@ class Product(object):
         self._name = None
         self._price = None
         self._balance = None
+        self._label = None
+        self._aoruna = None
 		
-
+'''
     def get_price(self):
         return self._price
-
+'''
 class GreenteaDrinkA(Product):
     def __init__(self):
         self._name = 'Greentea'
         self._price = 10
         self._balance = 10
         self._label = None
+        self._aoruna = None
 		
 class GreenteaDrinkB(Product):
     def __init__(self):
@@ -22,6 +25,7 @@ class GreenteaDrinkB(Product):
         self._price = 15
         self._balance = 10
         self._label = None
+        self._aoruna = None
 		
 class GreenteaDrinkC(Product):
     def __init__(self):
@@ -29,6 +33,7 @@ class GreenteaDrinkC(Product):
         self._price = 20
         self._balance = 10
         self._label = None
+        self._aoruna = None
 		
 class GreenteaDrinkD(Product):
     def __init__(self):
@@ -36,6 +41,7 @@ class GreenteaDrinkD(Product):
         self._price = 25
         self._balance = 10
         self._label = None
+        self._aoruna = None
 
 class RedTeaDrink(Product):
     def __init__(self):
@@ -43,6 +49,7 @@ class RedTeaDrink(Product):
         self._price = 10
         self._balance = 10
         self._label = None
+        self._aoruna = None
 
 class RedbullDrink(Product):
     def __init__(self):
@@ -50,6 +57,7 @@ class RedbullDrink(Product):
         self._price = 20
         self._balance = 10
         self._label = None
+        self._aoruna = None
 		
 class SoyDrink(Product):
     def __init__(self):
@@ -57,6 +65,7 @@ class SoyDrink(Product):
         self._price = 25
         self._balance = 10
         self._label = None
+        self._aoruna = None
 
 '''
 class ProductFactory(object):
